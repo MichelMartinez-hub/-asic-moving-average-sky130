@@ -1,0 +1,266 @@
+{
+  "config": {
+    "architecture": "recursive",
+    "window": 4,
+    "utilization": 47,
+    "inputs_sha256": "46c37082f3811df810ab10c68123d382c1aa7a2454eddc23e99b21ce40dcca3a"
+  },
+  "stages": {
+    "rtl": {
+      "status": "completed",
+      "log": "logs/rtl_1795555292336047268.log",
+      "metrics": {},
+      "artifacts": [
+        "obj_dir/Vtb_filter_equivalence"
+      ]
+    },
+    "synthesis": {
+      "status": "completed",
+      "log": "logs/synthesis_1795555295406979857.log",
+      "metrics": {
+        "synth_area_um2": 3276.8928
+      },
+      "artifacts": [
+        "synth.v"
+      ]
+    },
+    "import": {
+      "status": "completed",
+      "log": "logs/import_1795555296031058146.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_import.odb"
+      ]
+    },
+    "floorplan": {
+      "status": "completed",
+      "log": "logs/floorplan_1795555296864064870.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_floorplan.odb",
+        "direct_floorplan.def"
+      ]
+    },
+    "pins": {
+      "status": "completed",
+      "log": "logs/pins_1795555297528114597.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_pins.odb",
+        "direct_pins.def"
+      ]
+    },
+    "tapcells": {
+      "status": "completed",
+      "log": "logs/tapcells_1795555297735063073.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_tapcells.odb",
+        "direct_tapcells.def"
+      ]
+    },
+    "pdn": {
+      "status": "completed",
+      "log": "logs/pdn_1795555297946236660.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_pdn.odb",
+        "direct_pdn.def"
+      ]
+    },
+    "global_place": {
+      "status": "completed",
+      "log": "logs/global_place_1795555298153665057.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_global_place.odb",
+        "direct_global_place.def"
+      ]
+    },
+    "detailed_place": {
+      "status": "completed",
+      "log": "logs/detailed_place_1795555299053309380.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_detailed_place.odb",
+        "direct_detailed_place.def"
+      ]
+    },
+    "repair": {
+      "status": "completed",
+      "log": "logs/repair_1795555299275902557.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_repaired.odb",
+        "direct_repaired.def"
+      ]
+    },
+    "cts": {
+      "status": "completed",
+      "log": "logs/cts_1795555300264623519.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_cts.odb",
+        "direct_cts.def"
+      ]
+    },
+    "hold_tt": {
+      "status": "completed",
+      "log": "logs/hold_tt_1795555319705088101.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_hold_repaired.odb",
+        "direct_hold_repaired.def"
+      ]
+    },
+    "hold_ff": {
+      "status": "completed",
+      "log": "logs/hold_ff_1795555320586874744.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_hold_ff_candidate.odb",
+        "direct_hold_ff_candidate.def"
+      ]
+    },
+    "global_route": {
+      "status": "completed",
+      "log": "logs/global_route_1795555321400796241.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_ff_global_route.odb",
+        "direct_ff_global_route.def",
+        "direct_ff_route.guide"
+      ]
+    },
+    "detailed_route": {
+      "status": "completed",
+      "log": "logs/detailed_route_1795555322243922727.log",
+      "metrics": {
+        "route_drc": 0,
+        "wirelength_um": 7650
+      },
+      "artifacts": [
+        "direct_ff_detailed_route.odb",
+        "direct_ff_detailed_route.def"
+      ]
+    },
+    "metrics": {
+      "status": "completed",
+      "log": "logs/metrics_1795555944520831237.log",
+      "metrics": {
+        "core_area_um2": 6794.016,
+        "die_area_um2": 10712.25,
+        "placed_area_um2": 3726.0736,
+        "instances": 495,
+        "registers": 78,
+        "utilization_pct": 54.84346224677717,
+        "buffers_added": 31
+      },
+      "artifacts": [
+        "physical_metrics.txt"
+      ]
+    },
+    "sta_tt": {
+      "status": "completed",
+      "log": "logs/sta_tt_1795555945221589102.log",
+      "metrics": {
+        "tt_setup_wns_ns": 14.229753494,
+        "tt_setup_tns_ns": 0.0,
+        "tt_hold_wns_ns": 0.163501695,
+        "tt_hold_tns_ns": 0.0
+      },
+      "artifacts": [
+        "direct_ff_candidate_tt_nom.spef"
+      ]
+    },
+    "sta_ss": {
+      "status": "completed",
+      "log": "logs/sta_ss_1795555946002483075.log",
+      "metrics": {
+        "ss_setup_wns_ns": 8.471340179,
+        "ss_setup_tns_ns": 0.0,
+        "ss_hold_wns_ns": 0.378810763,
+        "ss_hold_tns_ns": 0.0
+      },
+      "artifacts": [
+        "direct_ff_candidate_ss_max.spef"
+      ]
+    },
+    "sta_ff": {
+      "status": "completed",
+      "log": "logs/sta_ff_1795555946824478012.log",
+      "metrics": {
+        "ff_setup_wns_ns": 16.59475708,
+        "ff_setup_tns_ns": 0.0,
+        "ff_hold_wns_ns": 0.085358724,
+        "ff_hold_tns_ns": 0.0
+      },
+      "artifacts": [
+        "direct_ff_candidate_ff_min.spef"
+      ]
+    },
+    "antenna": {
+      "status": "completed",
+      "log": "logs/antenna_1795555947660949938.log",
+      "metrics": {
+        "antenna_net": 0,
+        "antenna_pin": 0
+      },
+      "artifacts": []
+    },
+    "fillers": {
+      "status": "completed",
+      "log": "logs/fillers_1795555948277543265.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_ff_fillers.odb",
+        "direct_ff_fillers.def"
+      ]
+    },
+    "gds": {
+      "status": "completed",
+      "log": "logs/gds_1795555948631863614.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_ff_final.gds"
+      ]
+    },
+    "drc": {
+      "status": "completed",
+      "log": "logs/drc_1795555953299240697.log",
+      "metrics": {
+        "drc": 0
+      },
+      "artifacts": [
+        "direct_ff_drc.lyrdb"
+      ]
+    },
+    "reference": {
+      "status": "completed",
+      "log": "logs/reference_1795555965911418160.log",
+      "metrics": {},
+      "artifacts": [
+        "direct_ff_reference.cdl",
+        "reference_with_masters.spice"
+      ]
+    },
+    "magic": {
+      "status": "completed",
+      "log": "logs/magic_1795555966149376063.log",
+      "metrics": {},
+      "artifacts": [
+        "lvs_magic/moving_average_recursive_extracted.spice"
+      ]
+    },
+    "lvs": {
+      "status": "completed",
+      "log": "logs/lvs_1795556085001243581.log",
+      "metrics": {
+        "lvs": "PASS"
+      },
+      "artifacts": [
+        "lvs_comp.out"
+      ]
+    }
+  }
+}

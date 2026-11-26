@@ -1,0 +1,35 @@
+# Local experiments and EDA outputs
+/results/
+/build/
+/obj_dir/
+/run_flow_all.log
+*.odb
+*.spef
+*.vcd
+*.fst
+
+# Local tooling and temporary files
+/.agents/
+/.codex/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.venv/
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+.envrc
+.aws/
+.ssh/
+.netrc
+*.pem
+*.key
+*.p12
+*credentials*.json
+*secrets*.json

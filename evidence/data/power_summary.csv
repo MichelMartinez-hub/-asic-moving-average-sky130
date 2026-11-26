@@ -1,0 +1,9 @@
+architecture,window,internal_uw,switching_uw,leakage_uw,total_uw,energy_pj_per_sample,source,report
+direct,4,198.19547015,103.84167399,0.0012531329308000001,302.03838833000003,6.040767766600001,/foss/designs/asic_moving_average/results/physical/n4,power_tt_auuekpzn/direct_n4.json
+direct,8,485.72040396,315.89987339,0.0026162312317,801.62292579,16.0324585158,/foss/designs/asic_moving_average/results/physical/antenna_repairs/direct_n8_h7x4eet7,power_tt_auuekpzn/direct_n8.json
+direct,16,1632.9635400000002,1446.0443053,0.0055620010819,3079.0134332999996,61.580268665999995,/foss/designs/asic_moving_average/results/physical/direct_n16,power_tt_auuekpzn/direct_n16.json
+direct,32,5964.6032751,5913.9095247,0.012260002791,11878.524907,237.57049814,/foss/designs/asic_moving_average/results/physical/antenna_repairs/direct_n32_otwxdh7o,power_tt_auuekpzn/direct_n32.json
+recursive,4,340.37104342,204.94943601,0.0015168653,545.32196373,10.9064392746,/foss/designs/asic_moving_average/results/physical/recursive_n4,power_tt_auuekpzn/recursive_n4.json
+recursive,8,553.55567019,267.46359072,0.0024341393345,821.0217347399999,16.4204346948,/foss/designs/asic_moving_average/results/physical/antenna_repairs/recursive_n8_eb42okft,power_tt_auuekpzn/recursive_n8.json
+recursive,16,816.69411156,337.51511364,0.0040361620712,1154.2133288,23.084266576000005,/foss/designs/asic_moving_average/results/physical/antenna_repairs/recursive_n16_opfh2w2f,power_tt_auuekpzn/recursive_n16.json
+recursive,32,1251.9835727,465.84379743,0.0070007586395,1717.8343842000002,34.356687684,/foss/designs/asic_moving_average/results/physical/recursive_n32,power_tt_auuekpzn/recursive_n32.json

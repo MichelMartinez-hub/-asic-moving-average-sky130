@@ -1,0 +1,150 @@
+{
+  "original": "/foss/designs/asic_moving_average/results/physical/recursive_n16",
+  "original_sha256": {
+    "synth.v": "6fa0c7140b2aac9cfd12fa9fc6004f1fb98223d8a202bbef92e9471270aad5eb",
+    "direct_ff_detailed_route.odb": "a082ee60547948d1f8b80196d5f3f3b9f327f3763d037ec90dc30a2edf69b73f",
+    "direct_ff_route.guide": "a6c5059f0a5d6129f39dd7c99aa98f1b2fc10b85f1a97101f58ea654d24cdd0c",
+    "direct_ff_antenna.rpt": "7df4e0d5761046c166ea3b42fd075dc29ee38d4db2e13e8e38c7f23c4d54dff5"
+  },
+  "stages": {
+    "repair_antenna": {
+      "log": "logs/repair_antenna.log",
+      "metrics": {},
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_global_route.odb",
+        "direct_ff_route.guide"
+      ]
+    },
+    "detailed_route": {
+      "log": "logs/detailed_route.log",
+      "metrics": {
+        "route_drc": 0,
+        "wirelength_um": 17453
+      },
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_detailed_route.odb",
+        "direct_ff_detailed_route.def"
+      ]
+    },
+    "metrics": {
+      "log": "logs/metrics.log",
+      "metrics": {
+        "core_area_um2": 17116.416,
+        "die_area_um2": 23005.305625,
+        "placed_area_um2": 9417.7824,
+        "instances": 1291,
+        "registers": 226,
+        "utilization_pct": 55.0219298245614,
+        "buffers_added": 89
+      },
+      "status": "completed",
+      "artifacts": [
+        "physical_metrics.txt"
+      ]
+    },
+    "sta_tt": {
+      "log": "logs/sta_tt.log",
+      "metrics": {
+        "tt_setup_wns_ns": 14.795773506,
+        "tt_setup_tns_ns": 0.0,
+        "tt_hold_wns_ns": 0.103361711,
+        "tt_hold_tns_ns": 0.0
+      },
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_candidate_tt_nom.spef"
+      ]
+    },
+    "sta_ss": {
+      "log": "logs/sta_ss.log",
+      "metrics": {
+        "ss_setup_wns_ns": 9.425335884,
+        "ss_setup_tns_ns": 0.0,
+        "ss_hold_wns_ns": 0.286813796,
+        "ss_hold_tns_ns": 0.0
+      },
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_candidate_ss_max.spef"
+      ]
+    },
+    "sta_ff": {
+      "log": "logs/sta_ff.log",
+      "metrics": {
+        "ff_setup_wns_ns": 16.265993118,
+        "ff_setup_tns_ns": 0.0,
+        "ff_hold_wns_ns": 0.077294648,
+        "ff_hold_tns_ns": 0.0
+      },
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_candidate_ff_min.spef"
+      ]
+    },
+    "antenna": {
+      "log": "logs/antenna.log",
+      "metrics": {
+        "antenna_net": 0,
+        "antenna_pin": 0
+      },
+      "status": "completed",
+      "artifacts": []
+    },
+    "fillers": {
+      "log": "logs/fillers.log",
+      "metrics": {},
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_fillers.odb",
+        "direct_ff_fillers.def"
+      ]
+    },
+    "gds": {
+      "log": "logs/gds.log",
+      "metrics": {},
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_final.gds"
+      ]
+    },
+    "drc": {
+      "log": "logs/drc.log",
+      "metrics": {
+        "drc": 0
+      },
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_drc.lyrdb"
+      ]
+    },
+    "reference": {
+      "log": "logs/reference.log",
+      "metrics": {},
+      "status": "completed",
+      "artifacts": [
+        "direct_ff_reference.cdl",
+        "reference_with_masters.spice"
+      ]
+    },
+    "magic": {
+      "log": "logs/magic.log",
+      "metrics": {},
+      "status": "completed",
+      "artifacts": [
+        "lvs_magic/moving_average_recursive_extracted.spice"
+      ]
+    },
+    "lvs": {
+      "log": "logs/lvs.log",
+      "metrics": {
+        "lvs": "PASS"
+      },
+      "status": "completed",
+      "artifacts": [
+        "lvs_comp.out"
+      ]
+    }
+  }
+}

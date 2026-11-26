@@ -1,0 +1,16 @@
+$ openroad -threads 1 -exit /foss/designs/asic_moving_average/results/physical/direct_n16/tcl/openroad_antenna_n4.tcl
+OpenROAD 26Q3-2443-g50432012f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 1 thread(s).
+
+=================================
+INICIANDO ANTENNA CHECK
+=================================
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+
+=================================
+ANTENNA CHECK FINALIZADO
+=================================

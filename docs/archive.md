@@ -1,0 +1,7 @@
+# Publication archive
+
+The working tree originally contained about 832 MiB of results, including 821 MiB under physical results. Scratch data included Verilator build products, OpenROAD ODB and DEF checkpoints, SPEF, Magic extraction files, an extra Direct N=4 validation run, unsuccessful repair attempts and layout-view symlinks. The largest original file was a Magic extraction intermediate of 54,608,100 bytes. The audit found zero files over 100 MiB.
+
+The eight archived GDSII files total about 10.1 MiB. The largest is the repaired Direct N=32 layout at 2,928,910 bytes. All eight fit in regular Git. The [manifest](../evidence/gds_manifest.csv) gives their exact sizes and SHA-256 digests. The [working CSV snapshot](../evidence/data/summary_final_verified.csv) records the paths used for verification. The Direct N=4 duplicate is represented by its historical source, consistent with the power study. The Direct N=32 evidence also records the [first repair attempt](../evidence/verification/direct_n32/first_attempt.json) and its [residual antenna report](../evidence/verification/direct_n32/first_attempt_antenna.rpt).
+
+The archived numerical data and reports are byte-for-byte copies. Absolute paths and references to omitted EDA checkpoints in those reports document how the original runs were produced. The reproduction instructions regenerate the working checkpoints from RTL. The two KLayout images were rendered from the archived GDSII. The [manuscript](../paper/manuscript.md) was drafted from the archived results.
